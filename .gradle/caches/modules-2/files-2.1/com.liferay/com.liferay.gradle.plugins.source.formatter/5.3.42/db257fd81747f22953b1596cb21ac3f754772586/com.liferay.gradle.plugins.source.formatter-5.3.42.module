@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.source.formatter",
+    "version": "5.3.42",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.53"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.source.formatter-5.3.42.jar",
+          "url": "com.liferay.gradle.plugins.source.formatter-5.3.42.jar",
+          "size": 18884,
+          "sha512": "b4ebbec4ae38c020b8c36222750f11965a483a0fc9dfc5c4c9a775d0ad18d421b44faf397abb9597bbc90482097a19a314615ec93bc5da8834903a0343ec46b7",
+          "sha256": "ae229ee3ec45fad70d035a10f9ce9f9744c61f7e77212d09e83de8c34a012e45",
+          "sha1": "fccf5996085730d7883d388c60e05399f79a7007",
+          "md5": "a72e0428d55d4081227e31c0845aa359"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.53"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.source.formatter-5.3.42.jar",
+          "url": "com.liferay.gradle.plugins.source.formatter-5.3.42.jar",
+          "size": 18884,
+          "sha512": "b4ebbec4ae38c020b8c36222750f11965a483a0fc9dfc5c4c9a775d0ad18d421b44faf397abb9597bbc90482097a19a314615ec93bc5da8834903a0343ec46b7",
+          "sha256": "ae229ee3ec45fad70d035a10f9ce9f9744c61f7e77212d09e83de8c34a012e45",
+          "sha1": "fccf5996085730d7883d388c60e05399f79a7007",
+          "md5": "a72e0428d55d4081227e31c0845aa359"
+        }
+      ]
+    }
+  ]
+}
