@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.elasticsearch",
+    "module": "elasticsearch-cli",
+    "version": "8.19.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.2"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-core",
+          "version": {
+            "requires": "8.19.19"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-logging",
+          "version": {
+            "requires": "8.19.19"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticsearch-cli-8.19.19.jar",
+          "url": "elasticsearch-cli-8.19.19.jar",
+          "size": 37688,
+          "sha512": "1060197e6477363e0d1a089ca0166d8225809b4142a4fbeccdb1348d22ae901e86928786a6fd8e7f139ef654115767707bdfae971c02be1ccc103137fc818237",
+          "sha256": "3f3ac6e4d5d5fa75172577d770efe372e479977d037830e6ea1b254a7b5d1fec",
+          "sha1": "2f60d12e10d4f675073e9767b5c5a8cb90bf0947",
+          "md5": "2f793be2810a4e6b905cf1edd8f4344a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.2"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-core",
+          "version": {
+            "requires": "8.19.19"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-logging",
+          "version": {
+            "requires": "8.19.19"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticsearch-cli-8.19.19.jar",
+          "url": "elasticsearch-cli-8.19.19.jar",
+          "size": 37688,
+          "sha512": "1060197e6477363e0d1a089ca0166d8225809b4142a4fbeccdb1348d22ae901e86928786a6fd8e7f139ef654115767707bdfae971c02be1ccc103137fc818237",
+          "sha256": "3f3ac6e4d5d5fa75172577d770efe372e479977d037830e6ea1b254a7b5d1fec",
+          "sha1": "2f60d12e10d4f675073e9767b5c5a8cb90bf0947",
+          "md5": "2f793be2810a4e6b905cf1edd8f4344a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elasticsearch-cli-8.19.19-javadoc.jar",
+          "url": "elasticsearch-cli-8.19.19-javadoc.jar",
+          "size": 136944,
+          "sha512": "373598b947907719bd803b2ce6bb352e6f687b062c58f1771c31f497f8d5de969981266a341e399826c3f5eb3eaa1343b2007a068f21c154e11ecab0be32d29f",
+          "sha256": "356d8861875ba37039b508b220fec4d914d26a3bbd16b7c1ca27fa5cbb1b7eaf",
+          "sha1": "cfed171e82baf63ea235083705d718943373aebc",
+          "md5": "d12d8831ba355a5f5c4b424d94a55303"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elasticsearch-cli-8.19.19-sources.jar",
+          "url": "elasticsearch-cli-8.19.19-sources.jar",
+          "size": 29328,
+          "sha512": "ab7d7bd90287302cb3bc5b80169cd1a7d2d75990f9f54fc139f3b7d8cba41eecd6ff9a32c758ae6512034eff72c038da540ce075d605e7bcd49caf902fdd876a",
+          "sha256": "e23a714a127688a490b04224bec6d23d8c151fc3c874ac4a54c0562667f62c28",
+          "sha1": "2c141726ab3eb158dce740f45d183e6274935da0",
+          "md5": "1cee136eb8fd8b295ad0a5057242c0bb"
+        }
+      ]
+    }
+  ]
+}
